@@ -4,10 +4,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { AlbgottLogo } from "../assets/logos/AlbgottLogo";
 
 const navbarLinks = [
-  { label: "Home", href: "#home", ariaLabel: "Home" },
-  { label: "Pricing", href: "#pricing", ariaLabel: "Pricing" },
-  { label: "Features", href: "#features", ariaLabel: "Features" },
-  { label: "FAQ", href: "#FAQ", ariaLabel: "Frequently asked questions" },
+  { label: "Home", href: "/#home", ariaLabel: "Home" },
+  { label: "Pricing", href: "/#pricing", ariaLabel: "Pricing" },
+  { label: "Features", href: "/#features", ariaLabel: "Features" },
+  { label: "FAQ", href: "/#FAQ", ariaLabel: "Frequently asked questions" },
 ];
 
 export const Navbar = () => {
@@ -62,7 +62,7 @@ export const Navbar = () => {
             <a
               className="text-white rounded-full font-semibold 
             hover:text-customAmber2 hover:outline-customAmber2 pl-6 pr-6 pt-2 pb-2 text-sm"
-              href="auth/signup"
+              href="/auth/signup"
               aria-label="Sign up"
             >
               <span>Sign up</span>
@@ -70,7 +70,7 @@ export const Navbar = () => {
             <a
               className="text-white rounded-full font-semibold 
            bg-customAmber2 hover:bg-customDark3 hover:text-customAmber2 hover:outline hover:outline-2 hover:outline-customAmber2  pl-6 pr-6 pt-2 pb-2 text-sm"
-              href="auth/login"
+              href="/auth/login"
               aria-label="Log in"
             >
               <span>Log in</span>
@@ -115,7 +115,7 @@ export const Navbar = () => {
                 <a
                   className="text-white rounded-full font-semibold 
               hover:text-customAmber2 hover:outline-customAmber2 pl-6 pr-6 pt-2 pb-2 text-sm"
-                  href="auth/signup"
+                  href="/auth/signup"
                   aria-label="Sign up"
                 >
                   <span>Sign up</span>
@@ -123,7 +123,7 @@ export const Navbar = () => {
                 <a
                   className="text-white rounded-full font-semibold 
               bg-customAmber2 hover:bg-customDark3 hover:text-customAmber2 hover:outline hover:outline-2 hover:outline-customAmber2  pl-6 pr-6 pt-2 pb-2 text-sm"
-                  href="auth/login"
+                  href="/auth/login"
                   aria-label="Log in"
                 >
                   <span>Log in</span>
